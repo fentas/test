@@ -1,0 +1,30 @@
+{
+  "name": "scrape",
+  "main": "./lib/scrape",
+  "version": "0.1.0",
+  "description": "tests and scapes webpages",
+  "repository": "https://github.com/fentas/*",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "easy-time": "^1.0.3",
+    "mongodb": "~2.0",
+    "time": "^0.11.3",
+    "c3docker": "fentas/c3docker"
+  },
+  "author": {
+    "name": "Jan Guth",
+    "email": "jan.guth@gmail.com",
+    "url": "jan.guth.so"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-data": "github:fentas/gulp-data",
+    "gulp-shell": "^0.4.1",
+    "gulp-util": "^3.0.5"
+  },
+  "scripts": {
+    "//": "git checkout master && git submodule update --recursive",
+    "test": "gulp",
+    "start": "node lib/scrape.js"
+  }
+}

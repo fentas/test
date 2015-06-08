@@ -1,0 +1,23 @@
+{
+  "name": "scrape-data",
+  "version": "0.1.0",
+  "description": "data for scrape",
+  "repository": "https://github.com/fentas/*",
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "Jan Guth",
+    "email": "jan.guth@gmail.com",
+    "url": "jan.guth.so"
+  },
+  "dependencies": {
+    "easy-time": "^1.0.3",
+    "time": "^0.11.3",
+    "yargs": "^3.10.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-data": "github:fentas/gulp-data",
+    "gulp-shell": "^0.4.1",
+    "gulp-util": "^3.0.5"
+  }
+}

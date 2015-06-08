@@ -1,0 +1,7 @@
+{
+  "_id": "lastminute.weg.de",
+  "scripts": [
+    {"_id": "lastminute", "injectJS": "/data/foo.js"},
+    {"_id": "flug"}
+  ]
+}
